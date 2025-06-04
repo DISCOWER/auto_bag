@@ -6,8 +6,6 @@ import os
 import subprocess
 import datetime
 
-
-
 class BagRecorderService(Node):
 
     def __init__(self):

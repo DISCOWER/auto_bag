@@ -26,4 +26,4 @@ setup(
         ],
     },
 )
-
+# This setup script is used to package the auto_bag ROS2 node.

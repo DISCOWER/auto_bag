@@ -1,8 +1,0 @@
-topics:
-  - /fmu/in/vehicle_command
-  - /fmu/in/trajectory_setpoint
-  - /fmu/in/vehicle_thrust_setpoint
-  - /fmu/out/vehicle_attitude
-  - /fmu/out/sensor_combined
-  - /fmu/out/log_message
-

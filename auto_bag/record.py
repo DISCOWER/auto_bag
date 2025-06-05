@@ -49,7 +49,7 @@ class BagRecorderService(Node):
         Starts recording specific ROS 2 topics. If no topics are provided, records all active topics.
         """
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        bag_dir = os.path.expanduser(f"~/ros2_lab/bags/session_{timestamp}")
+        bag_dir = os.path.expanduser(f"~/bags/session_{timestamp}")
 
         # If no topics are specified, record all active topics
         if not selected_topics:

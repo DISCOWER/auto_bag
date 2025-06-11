@@ -13,7 +13,7 @@ def generate_launch_description():
             output='screen',
             parameters=[{
                 'topics_file': PathJoinSubstitution([
-                    FindPackageShare('user'),
+                    FindPackageShare('auto_bag_example'),
                     'config',
                     'topics.yaml'
                 ])
